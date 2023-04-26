@@ -1,0 +1,81 @@
+@media (max-width: 1750px) {
+  .sidebar {
+    position: fixed;
+    top: 55px;
+    left: 0;
+    bottom: 0;
+    width: 72px;
+    background-color: gray;
+    border-right-color: rgb(222, 222, 222);
+    border-right-style: solid;
+    border-right-width: 1px;
+    z-index: 200;
+  }
+  
+  .sidebar-link {
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .sidebar-link:hover {
+    background-color: rgb(225, 224, 224);
+  }
+  
+  .sidebar-link img {
+    height: 24px;
+    margin-bottom: 6px;
+    padding-top: 6px;
+  }
+  
+  .sidebar-link div {
+    font-family: Roboto, Arial;
+    font-size: 10px;
+    color: black;
+  }
+}
+
+@media (min-width: 1750.1px) {
+  .sidebar {
+    position: fixed;
+    top: 55px;
+    left: 0;
+    bottom: 0;
+    width: 240px;
+    background-color: gray;
+    border-right-color: rgb(222, 222, 222);
+    border-right-style: solid;
+    border-right-width: 1px;
+    z-index: 200;
+  }
+  
+  .sidebar-link {
+    height: 74px;
+    display: flex;
+    justify-content: start;
+    align-items: center; 
+    flex-direction: row;
+    cursor: pointer;
+    padding-left: 24px;
+  }
+  
+  .sidebar-link:hover {
+    background-color: rgb(225, 224, 224);
+  }
+  
+  .sidebar-link img {
+    height: 24px;
+    margin-bottom: 6px;
+    padding-top: 6px;
+    margin-right: 24px;
+  }
+  
+  .sidebar-link div {
+    font-family: Roboto, Arial;
+    font-size: 14px;
+    color: black;
+  }
+}
