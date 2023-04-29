@@ -13,7 +13,7 @@ body {
   font-family: Roboto, Arial;
 }
 
-@media (min-width: 750.1px) {
+@media (min-width: 1750.1px) {
   body {
     margin-left: 168px;
   }
